@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" class="sm:scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Vidby</title>
+</head>
+<body class="font-sans">
+    <section id="main">
+
+        <div>
+
+            <div id="home" class="bg-black text-white w-auto h-auto  " style="background: url('https://i.ibb.co/DfLpBg8/ai3.jpg'); background-repeat: no-repeat;background-size: cover; background-attachment: fixed; ">
+                <header class="relative" style="background-color: rgba(0, 0, 0, 0.486);">
+                    <div class="flex md:justify-end justify-center mr-4 md:space-x-10 py-10 text-xs uppercase">
+                        <a class="md:border-r-2 pr-4 border-x-gray-500 hover:text-[#E53B10] hover:transform hover:scale-110 hover:duration-300 hover:ease-in " href="#home">Home</a>
+                        <a class="md:border-r-2 pr-4 border-x-gray-500 hover:text-[#E53B10] hover:transform hover:scale-110 hover:duration-300 hover:ease-in " href="#about">About Us</a>
+                        <a class="md:border-r-2 pr-4 border-x-gray-500 hover:text-[#E53B10] hover:transform hover:scale-110 hover:duration-300 hover:ease-in " href="#highlights">highlights</a>
+                        <a class="md:border-r-2 pr-4 border-x-gray-500 hover:text-[#E53B10] hover:transform hover:scale-110 hover:duration-300 hover:ease-in " href="#services">services</a>
+                        <a class="  hover:text-[#E53B10] hover:transform hover:scale-110 hover:duration-300 hover:ease-in  " href="#contacts">Contacts</a>
+                    </div>
+
+                    <div class="md:absolute md:top-10 md:left-10 md:w-60 w-52 mx-auto md:mx-4">
+                        <img src="https://i.ibb.co/1R3DfLw/New-Logo-vidby-4.png" alt="">
+                    </div>
+
+                    <div class="text-center space-y-4 md:py-32 py-20 ">
+                        <h1 class="md:text-2xl text-sm font-semibold">TRANFORMING GLOBAL COMMUNICATION:</h1>
+                        <h2 class="md:text-4xl text-lg font-bold">EXCITING INVESTMENT OPPORTUNITY IN AI TRANSLATION</h2>
+
+                        <button class=" bg-red-600 space-y-10 px-4 py-2 rounded-full text-gray-100 font-semibold hover:transform hover:scale-110 hover:duration-200 hover:text-gray-100 hover:bg-[#f15b4d] ">More Info
+                            <!-- arrow svg goes here -->
+                            <svg class="w-4 h-4  fill-current inline" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </header>
+            </div>
+
+
+            <div id="services" class="scroll-mt-20 container mx-auto px-6 ">
+                <div class="bg-veryLightGray flex m-6 flex-wrap rounded-md  justify-center sm:justify-between md:justify-left ">
+                <div class="m-4 w-48 md:m-2 p-6 hover:shadow-2xl hover:cursor-pointer rounded-md ">
+                    <img
+                    src="data:image/png;base64,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">
+                   
+                    <span class="pt-2 block text-gray-700 text-sm md:text-md pt-3">Invest in one of the fastest
+                    growing markets globally </span>
+                    <span class="font-semibold block md:text-lg"></span>
+                </div>
+               
+                <div class="m-4 w-48 md:m-2 p-6 hover:shadow-2xl hover:cursor-pointer rounded-md ">
+                    <img
+                    src="data:image/png;base64,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">
+                    <span class="pt-2 block text-gray-700 text-sm md:text-md pt-3">Over 150 languages
+                    supported</span>
+                    <span class="font-semibold block md:text-lg"></span>
+                </div>
+                <div class="m-4 w-48 md:m-2 p-6 hover:shadow-2xl hover:cursor-pointer rounded-md ">
+                    <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABYElEQVR4nO2YXW7CMAyA/cJ2J7YD8IiNuAI32diuNbSb0N3BfukUEBPN2iYNJHWLPykPVSHJJ/9UMoBhGEUQorpthd73LRgDdSL1dvvEiJ9M9JN6eL1aPd9yOenev2LEvbtjcBMm+kgRaIjsdotMIrVbjPges0l1+sNms4w51D889nnIXheE6OUSGQiRmp8lRAbt4/+QEb+Z6DCWCHvnp4sQHRjxa6yuxd75ySKx5BLxyS5SCjGROUZE7pDbKmpE5iYCkc9JF4BMH0QT8Yj5rkDCPqNHZHYikKvWxCICj5lafYiJPOqXXaYuogExEWWIReTGgo0pZm9MW/WNRVWLtI1puWMsqjq1rse0EhiLTkOEThJnEcTj9FILcf8vtYjeplrsTqZykXASWYtdA5J7Gp8LLj2NzwWXnsaXQgaI/LVCUIas1699rblBWyvUtrijNTdotEIFl5brFWjNhmFAJ78lJWH7+wD/swAAAABJRU5ErkJggg==">
+                    <span class="pt-2 block text-gray-700 text-sm md:text-md pt-3">Key working relationships
+                    with global giants in the tech
+                    industry </span>
+                    <span class="font-semibold block md:text-lg"></span>
+                </div>
+                <div class="m-4 w-48 md:m-2 p-6 hover:shadow-2xl hover:cursor-pointer rounded-md ">
+                    <img
+                    src="data:image/png;base64,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">
+                    <span class="pt-2 block text-gray-700 text-sm md:text-md pt-3">Established unique products </span>
+                    <span class="font-semibold block md:text-lg"></span>
+                </div>
+                <div class="m-4 w-48 md:m-2 p-6 hover:shadow-2xl hover:cursor-pointer rounded-md ">
+                    <img src="data:image/png;base64,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">
+                    <span class="pt-2 block text-gray-700 text-sm md:text-md pt-3">Significant traction with many blue-chip clients achieved in its first year with revenues to match </span>
+                    <span class="font-semibold block md:text-lg"></span>
+                </div>
+                <div class="m-4 w-48 md:m-2 p-6 hover:shadow-2xl hover:cursor-pointer rounded-md ">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACiklEQVR4nO2ZvW7UQBDHtyE04WadQAFIiDrtEeBmD6UC0QV4DAj0UCIBjwC8BrwBiASkBKUIBCJFENjxCUFDoCPSofGuwXfEPq915zXR/qUpvN4P/252ZtZnIYKCJi9C+ZIULIuatXVZHCaUN3l9jfCTjRBWSMmljTkx5TwhKdlnEzXq0/mZk4Swnq5N/9rrHZw90WgQ4wkDoRHeEMrFrzh7hI26cEUr2DT35JqTZ+oGoY68lTyogrfb7QiG73PbHxglbzQXRMlXyZooF/P7wFXTB1YaC6IRfvB6vJXy+nw7O9OyXtttLoiC3VEg2+0IGg9i0r3sc2Dn9YkVXDPP5VAWPMTIkv21N/cL9g8LIAnl+6RPV15vLAinVK4Tdt13HNgcE2yJJ1IIlKurbXGo0QWRi10Gpj9sDPHxwtHjTpP6AEk9w3WCFCxzJjPZDF7wdnLyhG+QsYtqAumdg9Ma5WNS8Fmj3Cs4Z/Xt9tqzfR/x2EaAELYupfWjiulkbOuiV5DEEykEwpMYW2fKHAY35sRU3GnNE8JTC/OdVHTKG4jZTgai6hxkYUjBQ28gvM95/rgL7apzxOwZc+zfmRhI3r5O76eBXemtb7CIJglA+AIZl8dp1DzjAil7Pa51vIOUXY9cxwUQq+CRurcWOWalxsYIHTQQMaHrPAUQUfGXGX0NlBwvOhFSN1L7eYQK2gbHAXkD0QruFcUYq6htwBDuCl/BzO/fGuEBIcQaoefsEYSeHXu/8F2+7qzkCiLKqu6sFEBGKXjEKmytjCgEe0YhRirGiEb5K/uvyhZ/5bVjhtu4r2isR/5+X7/9ZeHYNKG8kynEg20I684g/4NphOcHA0TBs9IeCgoSlfUbG23WwvembhQAAAAASUVORK5CYII=">
+                    <span class="pt-2 block text-gray-700 text-sm md:text-md pt-3">Take advantage of the phenomenal growth seen in this global market
+                    </span>
+                    <span class="font-semibold block md:text-lg"></span>
+                </div>
+
+                </div>
+
+                <!-- <div class="my-4 md:mt-16 text-center">
+                <a href="#" target="_blank"
+                    class="p-3 text-white md:text-2xl  px-6 pt-2 font-semibold bg-primaryColor rounded-full hover:bg-secondaryColor  transition ease-out duration-500">
+                    More info
+                </a>
+                </div> -->
+            </div>
+            <!-- <div class="container mx-auto px-20 sm:grid sm:grid-cols-2 space-y-4 text-center lg:flex md:space-x-8 md:justify-center">
+                <div class="w-48 h-48 font-bold bg-slate-300 text-gray-800 text-xs hover:transform hover:scale-110 hover:duration-300 hover:bg-slate-500 hover:text-gray-900 hover:rounded-lg  shadow-xl rounded-lg mt-4 md:ml-8 py-16 cursor-pointer hover:font-bold ">Invest in one of the fastest growing markets globally
+                </div>
+
+                <div class="w-48  h-48 rounded-lg font-bold bg-slate-300 text-gray-800 text-xs hover:transform hover:scale-110 hover:duration-300 hover:bg-slate-500 hover:text-gray-900 hover:rounded-lg py-16 shadow-xl  px-4 md:cursor-pointer hover:font-bold">Significant traction with many blue-chip clients achieved in its first year with revenues to match
+                </div>
+
+                <div class="w-48  h-48 rounded-lg font-bold bg-slate-300 text-gray-800 text-xs hover:transform hover:scale-110 hover:duration-300 hover:bg-slate-500 hover:text-gray-900 hover:rounded-lg shadow-xl px-4  py-16 cursor-pointer hover:font-bold">
+                    Over 150 languages supported
+                </div>
+
+                <div class="w-48 h-48 rounded-lg font-bold bg-slate-300 text-gray-800 text-xs hover:transform hover:scale-110 hover:duration-300 hover:bg-slate-500 hover:text-gray-900 hover:rounded-lg  shadow-xl  py-16 px-4 cursor-pointer hover:font-bold">Established unique products</div>
+
+                <div class="w-48 h-48 rounded-lg font-bold bg-slate-300 text-gray-800 text-xs hover:transform hover:scale-110 hover:duration-300 hover:bg-slate-500 hover:text-gray-900 hover:rounded-lg  shadow-xl  py-16 rounded-r-md cursor-pointer hover:font-bold">Key working relationships with global giants in the tech industry
+                </div>
+            </div> -->
+
+
+           
+
+            <div id="highlights" class="md:flex md:flex-col md:justify-center md:items-center md:bg-black text-gray-100 mt-20 " style="background:url('https://mytechdecisions.com/wp-content/uploads/2018/10/oct.-25.-oracle-erp-suite.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
+                <h1 class="text-center md:text-gray-100 py-2 my-8 px-4 md:rounded-full md:bg-[#e53b109e]  text-[#e53b10] text-2xl font-bold ">HIGHLIGHTS</h1>
+
+                <div class="md:grid md:space-x-2 text-sm md:text-lg md:grid-cols-3 space-y-10 lg:space-x-10">
+
+                    <div class="flex items-center md:mt-10 pl-8 md:mr-0 text-lg  md:w-60 md:h-44 md:border md:p-12 md:mx-auto md:my-4 md:text-center font-bold md:text-sm md:hover:transform md:hover:scale-105 md:hover:duration-300 md:cursor-pointer " style="background-color:rgba(112, 128, 144, 0.389)">
+                        <div class="w-6 h-10 p-2 text-sm md:hidden mr-4 bg-[#E53B10] rounded-xl text-center" >
+                        1
+                        </div>
+                        The only video translation software recommended by YouTube.
+                    </div>
+
+                    <div class="flex items-center pl-8 text-lg  md:w-60 md:h-44 md:border md:p-12 md:text-center md:text-sm md:mx-auto  md:my-4 font-bold md:hover:transform md:hover:scale-105 md:hover:duration-300 md:cursor-pointer" style="background-color:rgba(112, 128, 144, 0.389)">
+
+                        <div class="w-6 h-10 p-2 text-sm md:hidden mr-4 bg-[#E53B10] rounded-xl text-center" >
+                            2
+                        </div>
+                        The world leader in video translation and dubbing.
+                    </div>
+
+                    <div class=" flex items-center pl-8 text-lg  md:w-60 md:h-44 md:border md:p-6 md:text-center mx-auto md:text-sm  md:my-4 font-bold md:hover:transform md:hover:scale-105 md:hover:duration-300 md:cursor-pointer" style="background-color:rgba(112, 128, 144, 0.389)">
+
+                        <div class="w-6 h-10 p-2 text-sm md:hidden mr-4 bg-[#E53B10] rounded-xl text-center" >
+                            3
+                        </div>
+                        The only real-time translation solution capable of translating Google Meets, Zoom, and Microsoft Teams video conferences.
+                    </div>
+
+                    <div class="flex items-center pl-8 text-lg  md:w-60 md:h-44 md:border md:p-6 md:text-center md:mx-auto md:text-sm  md:my-4 font-bold md:hover:transform md:hover:scale-105 md:hover:duration-300 md:cursor-pointer" style="background-color:rgba(112, 128, 144, 0.389)">
+
+                        <div class="w-6 h-10 p-2 text-sm mr-4 md:hidden bg-[#E53B10] rounded-full text-center" >
+                            4
+                        </div>
+                        The only software for real-time translation of spoken conversations for multiple simultaneous users in multiple simultaneous locations.
+                    </div>
+
+                    <div class="flex items-center pl-8 text-lg  md:w-60 md:h-44 md:border md:p-6 md:text-center md:mx-auto  md:my-4 font-bold md:hover:transform md:text-sm md:hover:scale-105 md:hover:duration-300 md:cursor-pointer" style="background-color:rgba(112, 128, 144, 0.389)">
+
+                        <div class="w-6 h-10 p-2 md:hidden text-sm mr-4 bg-[#E53B10] rounded-xl text-center" >
+                            5
+                        </div>
+                        Real-time translation of offline conferences for up to 50,000 people in more than 100 simultaneous languages and dialects.
+                    </div>
+
+                    <div class="flex items-center pl-8 text-lg  md:w-60 md:h-44 md:border md:p-12 md:text-center md:mx-auto md:text-sm  md:my-4 font-bold md:hover:transform md:hover:scale-105 md:hover:duration-300 md:cursor-pointer" style="background-color:rgba(112, 128, 144, 0.389)">
+
+                        <div class="w-6 h-10 p-2 text-sm md:hidden mr-4 bg-[#E53B10] rounded-xl text-center" >
+                            6
+                        </div>
+                        Current addressable market of €27 billion growing rapidly.
+                    </div>
+                </div>
+
+                <button class=" bg-[#E53B10] my-10 ml-8  space-y-10 px-4 py-2 rounded-full text-gray-100 font-semibold hover:transform hover:scale-110 hover:duration-200 hover:text-gray-100 hover:bg-[#f15b4d] ">
+                    More Info
+                   
+                    <svg class="w-4 h-4  fill-current inline" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <div id="about"  class="scroll-mt-20 my-10 md:container md:mx-auto ">
+                <div class="text-center text-2xl text-white font-bold mb-8">
+                    <h1 class="bg-[#e53b10] inline p-2 px-4 rounded-full">Why Choose Us?</h1>
+                </div>
+
+                <div class="w-auto h-auto mx-6 md:px-20 md:mx-10 text-center text-gray-900 font-semibold py-10 border md:border-2 text-sm  border-[#E53B10] md:rounded-full rounded-xl px-8 shadow-xl md:text-xl ">
+                    In an era where international collaboration is paramount, our technology stands as a vital tool for businesses, educational institutions, and individuals seeking seamless cross-cultural communication. We are not just creating a
+                    translation tool; we are fostering a more connected and understanding world. By investing in our startup, you are not only capitalizing on a lucrative
+                    market opportunity, but also becoming part of a venture that bridges cultures and unites people.
+
+                </div>
+
+            </div>
+
+
+            <footer id="contacts" class=" md:flex md:justify-center space-x-8 md:mt-20 text-sm bg-blue-950 text-gray-200 py-10 grid grid-cols-2 pl-6">
+                <div class="flex items-start md:space-x-4 border-r-4 pr-6 border-[#E53B10] md:border-hidden">
+                    <h1 class="text-6xl font-serif">icdc</h1>
+                    <div class="mt-4 text-xs">
+                        <p>Innovative</p>
+                        <p>Capital</p>
+                        <p>Development</p>
+                        <p>Consultancy</p>
+                    </div>
+                </div>
+
+                <div class="md:pl-20 pl-4 text-left pr-4">
+                    <h1 class="md:text-lg">Exclusive partners to vidby A.G.</h1>
+
+                    <div class="  md:w-32 w-28 md:mx-4">
+                        <img src="https://i.ibb.co/1R3DfLw/New-Logo-vidby-4.png" alt="">
+                    </div>
+
+                    <div class=" flex flex-col md:space-y-2 ml-4  text-xs uppercase m-[-30px]">
+                        <a class=" hover:text-[#E53B10]  " href="#home">Home</a>
+                        <a class=" hover:text-[#E53B10]  " href="#about">About Us</a>
+                        <a class=" hover:text-[#E53B10]  " href="#highlights">highlights</a>
+                        <a class=" hover:text-[#E53B10]   " href="#services">services</a>
+                        <a class="  hover:text-[#E53B10]  " href="#contacts">Contacts</a>
+                    </div>
+
+                </div>
+
+                <div>
+                    <h1 class="md:text-2xl text-xl">Adrian Aston</h1>
+                    <p class="text-[#E53B10] md:text-lg font-medium">Partner</p>
+                    <div class="flex flex-col space-y-2 text-xs">
+                        <a href="#">+41 43 58835 91</a>
+                        <a href="#">+44 77726 222 223</a>
+                        <a href="#">+34 616 962 689</a>
+                        <a href="#">adran@innocapdc.com</a>
+                        <a href="#">Protectora 10, Local 3-4, Palma, Spain</a>
+                        <a href="#">www.innocapdc.com</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </section>
+</body>
+</html>
